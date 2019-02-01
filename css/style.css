@@ -46,10 +46,12 @@ h3 {
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #828282;
 }
+
+
 
 p {
   color: #828282;
@@ -77,9 +79,9 @@ footer {
 }
 
 .section-title {
-  padding-bottom: 62px;
+  padding-bottom: 78px;
 }
-.section-title h1 {
+.section-title h4 {
   padding-bottom: 10px;
 }
 #about .section-title {
@@ -88,6 +90,7 @@ footer {
 #contact .section-title {
   text-align: center;
 }
+
 
 
 /* preloader section  */
@@ -330,7 +333,7 @@ footer {
   border-radius: 0px;
   box-shadow: none;
   font-size: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   transition: all 0.4s ease-in-out;
 }
 
@@ -531,7 +534,7 @@ footer a:hover {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
   h1 {
     font-size: 2rem;
@@ -549,7 +552,7 @@ footer a:hover {
 }
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
   #home {height: 100vh;}
 
@@ -570,3 +573,7 @@ footer a:hover {
 }
 
 }
+.bq3 { width: 350px; background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #575757; }
+.bq4 { width: 400px; background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #575757; }
+.bq3 p { padding-right: 35px; line-height: 18px; background: url('http://i48.tinypic.com/eb1yrr.png') bottom right no-repeat; padding-bottom: 15px; color: #333; font-size: 15px; }
+.bq4 p { padding-right: 30px; line-height: 18px; background: url('http://i48.tinypic.com/eb1yrr.png') bottom right no-repeat; padding-bottom: 15px; color: #333; font-size: 15px; }
