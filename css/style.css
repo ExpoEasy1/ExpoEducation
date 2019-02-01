@@ -32,7 +32,7 @@ h1 {
   font-size: 6.5rem;
   font-weight: 400;
   color: #ffffff;
-  background-image: linear-gradient(to right, rgba(81,169,179), rgba(48,182,123));
+  background-image: linear-gradient(to right,   #51a9b3, #30b67b);
 }
 
 h2 {
@@ -260,7 +260,7 @@ footer {
 }
 
 #home .btn {
-    background: rgba(81,169,179);
+    background: #51a9b3;
     /*border: 3px solid #ffffff;*/
     border-radius: 0px;
     color: #ffffff;
@@ -299,7 +299,7 @@ footer {
 
 /* feature section */
 #feature {
-  background-image: linear-gradient(to right, rgba(48,182,123), rgba(81,169,179));
+  background-image: linear-gradient(to right, #30b67b, #51a9b3);
 }
 
 #feature .icon {
