@@ -32,7 +32,7 @@ h1 {
   font-size: 6.5rem;
   font-weight: 400;
   color: #ffffff;
-  background-color: #828282;
+  background-image: linear-gradient(to right, rgba(81,169,179), rgba(48,182,123));
 }
 
 h2 {
@@ -260,17 +260,18 @@ footer {
 }
 
 #home .btn {
-    background: transparent;
-    border: 3px solid #ffffff;
+    background: rgba(81,169,179);
+    /*border: 3px solid #ffffff;*/
     border-radius: 0px;
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     padding: 14px 36px;
     margin-top: 42px;
     margin-right: 16px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+    font-size: 24px;
 }
 
 #home .btn:hover {
@@ -298,13 +299,13 @@ footer {
 
 /* feature section */
 #feature {
-  background: #f1c11a;
+  background-image: linear-gradient(to right, rgba(48,182,123), rgba(81,169,179));
 }
 
 #feature .icon {
   color: #ffffff;
-  font-size: 42px;
-  padding-right: 14px;
+  font-size: 50px;
+  padding-right: 20px;
 }
 
 #feature p {
@@ -501,9 +502,9 @@ footer a:hover {
 }
 
 .social-icon li a {
-  border-radius: 150px;
+  border-radius: 500px;
   color: #626262;
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
   width: 42px;
@@ -581,7 +582,7 @@ footer a:hover {
 }
 
 }
-.bq3 { width: 350px; background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #575757; }
-.bq4 { width: 400px; background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #575757; }
+.bq3 { width: 350px; background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #51A9B3; }
+.bq4 { width: 400px; background: url('http://i47.tinypic.com/a9l0g3.png') top left no-repeat; padding-left: 55px; line-height: 18px; color: #51A9B3; }
 .bq3 p { padding-right: 35px; line-height: 18px; background: url('http://i48.tinypic.com/eb1yrr.png') bottom right no-repeat; padding-bottom: 15px; color: #333; font-size: 15px; }
 .bq4 p { padding-right: 30px; line-height: 18px; background: url('http://i48.tinypic.com/eb1yrr.png') bottom right no-repeat; padding-bottom: 15px; color: #333; font-size: 15px; }
