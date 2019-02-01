@@ -51,6 +51,11 @@ h4 {
   color: #828282;
 }
 
+h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #828282;
+}
 
 
 p {
@@ -79,10 +84,13 @@ footer {
 }
 
 .section-title {
-  padding-bottom: 78px;
+  padding-bottom: 20px;
 }
 .section-title h4 {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+}
+.section-title h5 {
+  padding-bottom: 70px;
 }
 #about .section-title {
   padding-bottom: 22px;
@@ -513,7 +521,7 @@ footer a:hover {
 }
 
 /* Mobile Responsive */
-@media (max-width: 980px) {
+@media (max-width: 800px) {
 
   h1 {
     font-size: 2.4rem;
